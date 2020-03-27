@@ -17,6 +17,7 @@ class ApplicationController < Sinatra::Base
   end
 
   post "/signup" do
+    user = params
     #your code here
 
   end
